@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Navigation from "./components/navigation/navigation.component";
+import HomePage from "./components/home/home.component";
 
 import "./App.css";
 
@@ -11,9 +12,7 @@ class App extends React.Component {
       <BrowserRouter>
         <Navigation />
         <Switch>
-          <Route exact path="/">
-            This is the home page
-          </Route>
+          <Route exact path="/" component={HomePage} />
           <Route exact path="/about">
             This is the about page
           </Route>
