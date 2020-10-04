@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Navigation from "./components/navigation/navigation.component";
 import HomePage from "./components/home/home.component";
+import Resume from "./components/resume/resume.component";
 
 import "./App.css";
 
@@ -22,9 +23,7 @@ class App extends React.Component {
           <Route exact path="/contact">
             This is the contact page
           </Route>
-          <Route exact path="/resume">
-            This is the resume page
-          </Route>
+          <Route exact path="/resume" component={Resume} />
         </Switch>
       </BrowserRouter>
     );
