@@ -1,6 +1,7 @@
 import React from "react";
 
 import ResumePDF from "../../assets/Resume.pdf";
+import Footer from "../footer/footer.component";
 
 import "./resume.styles.scss";
 
@@ -18,6 +19,7 @@ const Resume = () => {
         </a>
       </div>
       <iframe src={ResumePDF} title="Resume"></iframe>
+      <Footer />
     </div>
   );
 };
