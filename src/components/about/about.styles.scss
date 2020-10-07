@@ -1,25 +1,25 @@
 .about-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "about-image about-section about-section";
   height: 100vh;
   padding: 10%;
   background-color: #424949;
 }
 
-.about-container img {
+.about-image {
+  grid-area: about-image;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 30%;
-  text-align: center;
   border-radius: 50%;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
 }
 
 .about-section {
+  grid-area: about-section;
   padding: 0 55px;
   color: white;
 }
@@ -28,4 +28,23 @@
   letter-spacing: 0.6rem;
   padding-bottom: 30px;
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 700px) {
+  .about-container {
+    grid-template-areas: "about-image about-section";
+    height: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-container {
+    grid-template-areas:
+      "about-image"
+      "about-section";
+  }
+
+  .about-section h1 {
+    letter-spacing: normal;
+  }
 }
