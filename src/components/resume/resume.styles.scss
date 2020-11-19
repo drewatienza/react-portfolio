@@ -28,12 +28,15 @@ iframe {
   padding: 0 35px;
   font-size: 18px;
   background-color: #444;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: "Open Sans Condensed";
-  font-weight: bolder;
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+  }
 }

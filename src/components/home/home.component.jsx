@@ -10,11 +10,7 @@ const HomePage = () => {
         <h2>Web Developer | Software Engineer | Student</h2>
       </div>
 
-      <ul className="slideshow">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+      <ul className="home">
         <li></li>
       </ul>
     </div>

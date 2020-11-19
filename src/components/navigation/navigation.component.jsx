@@ -5,6 +5,9 @@ import "./navigation.styles.scss";
 
 const Navigation = () => (
   <div className="nav-bar">
+    <span className="navbar-toggle" id="js-navbar-toggle">
+      <i className="fas fa-bars"></i>
+    </span>
     <Link className="logo-container" to="/">
       Drew Atienza
       {/* <Logo className='logo' /> */}
