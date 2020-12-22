@@ -1,49 +1,3 @@
-// .nav-bar {
-//   height: 50px;
-//   width: 100%;
-//   display: flex;
-//   justify-content: space-between;
-//   background-color: #822;
-//   z-index: 6;
-
-//   .logo-container {
-//     height: 100%;
-//     width: 175px;
-//     font-size: 1.3rem;
-//     padding: 12px 15px;
-//     color: #fff;
-//     font-weight: 400;
-//   }
-
-//   .options {
-//     width: 50%;
-//     height: 100%;
-//     display: flex;
-//     align-items: center;
-//     justify-content: flex-end;
-//     flex-wrap: wrap;
-
-//     .option {
-//       padding: 10px 15px;
-//       font-size: 1.1rem;
-//       cursor: pointer;
-//       color: #fff;
-//       font-weight: 400;
-//     }
-//   }
-// }
-
-// .navbar-toggle {
-//   position: absolute;
-//   top: 10px;
-//   right: 20px;
-//   cursor: pointer;
-//   color: rgba(255, 255, 255, 0.8);
-//   font-size: 24px;
-//   display: none;
-// }
-
-// Style for New Navbar
 a {
   color: #fff;
 }
@@ -90,9 +44,10 @@ a {
   }
 
   .menu-icon {
-    padding: 28px 20px;
+    padding: 14px 20px;
     position: relative;
     float: right;
+    width: 18px;
     cursor: pointer;
 
     .nav-icon {
@@ -101,6 +56,7 @@ a {
       height: 2px;
       width: 18px;
       position: relative;
+      float: right;
       transition: background 0.2s ease-out;
 
       &:before {
