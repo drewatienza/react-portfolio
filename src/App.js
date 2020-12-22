@@ -16,6 +16,9 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/skills">
+            This is the skills page
+          </Route>
           <Route exact path="/portfolio">
             This is the portfolio page
           </Route>

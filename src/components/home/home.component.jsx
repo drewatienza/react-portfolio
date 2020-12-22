@@ -7,12 +7,12 @@ const HomePage = () => {
     <div className="cover">
       <div className="cover-header">
         <h1>DREW ATIENZA</h1>
-        <h2>Web Developer | Software Engineer | Student</h2>
+        <h2>Web Developer | Software Engineer | Lifelong Learner</h2>
       </div>
 
-      <ul className="home">
-        <li></li>
-      </ul>
+      <div className="home">
+        <div></div>
+      </div>
     </div>
   );
 };
