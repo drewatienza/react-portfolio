@@ -1,11 +1,12 @@
 import React from 'react';
-import { DiCss3, DiGithubBadge, DiHeroku, DiJavascript1, DiReact, DiSass } from 'react-icons/di';
+import { DiCss3, DiGithubBadge, DiHeroku, DiHtml5, DiJavascript1, DiReact, DiSass } from 'react-icons/di';
 import { BiWindowOpen } from 'react-icons/bi';
 import { SiFirebase, SiGithub, SiNetlify, SiRedux } from 'react-icons/si'
 
 import Clothing from '../../assets/clothing.png';
 import BoxOffice from '../../assets/box-office.png';
 import GitHub from '../../assets/github-finder.png';
+import Jokes from '../../assets/jokes.png';
 import Footer from "../footer/footer.component";
 
 import './portfolio.styles.scss';
@@ -28,11 +29,11 @@ const Portfolio = () => {
             <DiHeroku />
           </div>
           <p>
-            This is a Full-Stack ecommerce website for a boutique clothing store built with React and Firebase.
+            This is a Full-Stack ecommerce website for a boutique clothing store built with React, Redux and Firebase and is deployed on Heroku.
           </p>
           <div className="portfolio-btn">
             <a href="https://maricel-boutique.herokuapp.com/" target="_blank" rel='noopener noreferrer'><BiWindowOpen /> Live Site</a>
-            <a href="https://github.com/drewatienza/maricel-clothing"><DiGithubBadge /> GitHub</a>
+            <a href="https://github.com/drewatienza/maricel-clothing" target="_blank" rel='noopener noreferrer'><DiGithubBadge /> GitHub</a>
           </div>
         </div>
       </div>
@@ -51,11 +52,11 @@ const Portfolio = () => {
             <SiNetlify />
           </div>
           <p>
-            GitHub Finder is a web app that lets users search for GitHub accounts using the GitHub API.
+            GitHub Finder is a web app that lets users search for GitHub accounts using the GitHub API.  This web app is deployed on Netlify.
           </p>
           <div className="portfolio-btn">
             <a href="https://drewatienza-github-finder.netlify.app/" target="_blank" rel='noopener noreferrer'><BiWindowOpen /> Live Site</a>
-            <a href="https://github.com/drewatienza/github_finder"><DiGithubBadge /> GitHub</a>
+            <a href="https://github.com/drewatienza/github_finder" target="_blank" rel='noopener noreferrer'><DiGithubBadge /> GitHub</a>
           </div>
         </div>
       </div>
@@ -78,7 +79,30 @@ const Portfolio = () => {
           </p>
           <div className="portfolio-btn">
             <a href="https://drewatienza.github.io/box-office/" target="_blank" rel='noopener noreferrer'><BiWindowOpen /> Live Site</a>
-            <a href="https://github.com/drewatienza/box-office"><DiGithubBadge /> GitHub</a>
+            <a href="https://github.com/drewatienza/box-office" target="_blank" rel='noopener noreferrer'><DiGithubBadge /> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      {/* Project 4 */}
+      <div className="project-container">
+        <div className="image">
+          <img src={Jokes} alt='box office screenshot' />
+        </div>
+        <div className="port-description">
+          <h3>Joke Teller</h3>
+          <div className="icon-container">
+            <DiHtml5 />
+            <DiCss3 />
+            <DiJavascript1 />
+            <SiGithub />
+          </div>
+          <p>
+            Joke Teller is a simple project that uses Joke API to get jokes and VoiceRSS API, a text-to-speeach API, to tell the joke in audio format.
+          </p>
+          <div className="portfolio-btn">
+            <a href="https://drewatienza.github.io/joke-teller/" target="_blank" rel='noopener noreferrer'><BiWindowOpen /> Live Site</a>
+            <a href="https://github.com/drewatienza/joke-teller" target="_blank" rel='noopener noreferrer'><DiGithubBadge /> GitHub</a>
           </div>
         </div>
       </div>
