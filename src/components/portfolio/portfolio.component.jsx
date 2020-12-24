@@ -1,7 +1,7 @@
 import React from 'react';
 import { DiCss3, DiGithubBadge, DiHeroku, DiJavascript1, DiReact, DiSass } from 'react-icons/di';
 import { BiWindowOpen } from 'react-icons/bi';
-import { SiFirebase, SiGithub, SiNetlify } from 'react-icons/si'
+import { SiFirebase, SiGithub, SiNetlify, SiRedux } from 'react-icons/si'
 
 import Clothing from '../../assets/clothing.png';
 import BoxOffice from '../../assets/box-office.png';
@@ -21,6 +21,7 @@ const Portfolio = () => {
           <h3>Maricel's Clothing</h3>
           <div className="icon-container">
             <DiReact />
+            <SiRedux />
             <DiSass />
             <DiJavascript1 />
             <SiFirebase />
