@@ -27,7 +27,7 @@ const Portfolio = () => {
             <DiHeroku />
           </div>
           <p>
-            This is an ecommerce website for a boutique clothing store.  It was built with React and Firebase.
+            This is a Full-Stack ecommerce website for a boutique clothing store built with React and Firebase.
           </p>
           <div className="portfolio-btn">
             <a href="https://maricel-boutique.herokuapp.com/" target="_blank" rel='noopener noreferrer'><BiWindowOpen /> Live Site</a>
