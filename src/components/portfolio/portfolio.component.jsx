@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiCss3, DiGithubBadge, DiHeroku, DiHtml5, DiJavascript1, DiReact, DiSass } from 'react-icons/di';
+import { DiCss3, DiGithubBadge, DiHtml5, DiJavascript1, DiReact, DiSass } from 'react-icons/di';
 import { BiWindowOpen } from 'react-icons/bi';
 import { SiFirebase, SiGithub, SiNetlify, SiRedux } from 'react-icons/si'
 
@@ -26,13 +26,13 @@ const Portfolio = () => {
             <DiSass />
             <DiJavascript1 />
             <SiFirebase />
-            <DiHeroku />
+            <SiNetlify />
           </div>
           <p>
-            This is a Full-Stack ecommerce website for a boutique clothing store built with React, Redux and Firebase and is deployed on Heroku.
+            This is a Full-Stack ecommerce website for a boutique clothing store built with React, Redux and Firebase and is deployed on Netlify.
           </p>
           <div className="portfolio-btn">
-            <a href="https://maricel-boutique.herokuapp.com/" target="_blank" rel='noopener noreferrer'><BiWindowOpen /> Live Site</a>
+            <a href="https://peaceful-mccarthy-34bf08.netlify.app/" target="_blank" rel='noopener noreferrer'><BiWindowOpen /> Live Site</a>
             <a href="https://github.com/drewatienza/maricel-clothing" target="_blank" rel='noopener noreferrer'><DiGithubBadge /> GitHub</a>
           </div>
         </div>
