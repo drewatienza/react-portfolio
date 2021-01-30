@@ -14,8 +14,7 @@ const About = () => {
           <h1>ABOUT ME</h1>
           <p>Hi there! I'm Drew.</p>
           <p>
-            I am a self-taught developer and career-changer who decided to learn
-            to code 4 years ago.  I am always trying to learn new thing and new technologies and I love making high-quality websites and applications.
+            My coding journey started 4 years ago when I decided to learn code.  Since then I've been trying to learn new thing and new technologies and developing a solid foundation in software development.  I really love the creative aspect of Front End development and I would love to an opportunity to learn more about Back End development.
           </p>
         </div>
         <div className="skills-section">
