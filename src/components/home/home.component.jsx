@@ -7,7 +7,7 @@ const HomePage = () => {
     <div className="cover">
       <div className="cover-header">
         <h1>DREW ATIENZA</h1>
-        <h2>Software Engineer | Data Analyst | Lifelong Learner</h2>
+        <h2>IT Business Professional | Cybersecurity Enthusiast | Web Developer | Lifelong Learner</h2>
       </div>
 
       <div className="home">
